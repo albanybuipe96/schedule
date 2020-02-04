@@ -24,6 +24,11 @@ class CheckableTile extends StatelessWidget {
           bottomRight: Radius.circular(256.0),
           topRight: Radius.circular(90.0),
         ),
+        gradient: LinearGradient(
+          begin: Alignment.topCenter,
+          end: Alignment.topRight,
+          colors: [Colors.blue[100], Colors.black87]
+        ),
       ),
       child: ListTile(
         title: Text(

@@ -12,7 +12,7 @@ class CustomTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListTile(
       leading: CircleAvatar(
-        child: Icon(icon),
+        child: Icon(icon, color: Colors.brown,),
         backgroundColor: Colors.white30,
       ),
       title: Text(itemTitle, style: TextStyle(),),

@@ -27,8 +27,12 @@ class Store extends ChangeNotifier {
   ];
   List<Todo> _todoList = [
     Todo(name: 'Finish CE 351 assignment'),
-    Todo(name: 'Finish CE 351 assignment'),
-    Todo(name: 'Finish CE 351 assignment'),
+    Todo(name: 'Cook for the guests'),
+    Todo(name: 'Go to the gymn'),
+    Todo(name: 'Go and do my head'),
+    Todo(name: 'Go see Dr. Nofong'),
+    Todo(name: 'Prepare Arabic timetable'),
+    Todo(name: 'Refactor app'),
   ];
   List<Shopping> _shoppingList = [
     Shopping(name: 'Egg', price: 0.6, count: 24),
